@@ -4,18 +4,18 @@ import com.google.gson.annotations.SerializedName
 
 class TaskModel {
 
-    @SerializedName("id")
+    @SerializedName("Id")
     var id: Int = 0
 
-    @SerializedName("priorityId")
+    @SerializedName("PriorityId")
     var priorityId: Int = 0
 
-    @SerializedName("description")
+    @SerializedName("Description")
     var description: String = ""
 
-    @SerializedName("dueDate")
+    @SerializedName("DueDate")
     var dueDate: String = ""
 
-    @SerializedName("complete")
+    @SerializedName("Complete")
     var complete: Boolean = false
 }
